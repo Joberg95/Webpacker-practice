@@ -10,7 +10,7 @@ class ComponentService {
     return [this.numberOneInput.value, this.numberTwoInput.value];
   }
 
-  setResult() {
+  setResult(str) {
     this.resultDiv.innerText = str;
   }
 
